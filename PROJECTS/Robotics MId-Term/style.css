@@ -1,0 +1,47 @@
+body{
+    background-image: url(./images/bg.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+
+nav>img{
+    transform: scale(0.2,0.2);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-inline: auto;
+}
+
+ul>a{
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img>img{
+    transform: scale(0.5,0.5);
+    border: 1px solid black;
+}
+
+#frank, #mike, #trevor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frank_desc>ul, .mike_desc>ul, .trevor_desc>ul{
+    display: block;
+}
