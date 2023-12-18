@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="flex.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Roboto+Mono&family=Sacramento&family=Tilt+Prism&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/81f067821a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h2>CSS Flexbox</h2>
+    <div class="container">
+      <div id="item-1" class="kids">Item I</div>
+      <div id="item-2" class="kids">Item II</div>
+      <div id="item-3" class="kids">Item III</div>
+      <!-- <div id="item-4" class="kids">Item IV</div>
+      <div id="item-5" class="kids">Item V</div>
+      <div id="item-6" class="kids">Item VI</div>
+      <div id="item-7" class="kids">Item VII</div>
+      <div id="item-8" class="kids">Item VIII</div>
+      <div id="item-9" class="kids">Item IX</div>
+      <div id="item-10" class="kids">Item X</div>
+      <div id="item-11" class="kids">Item XI</div>
+      <div id="item-12" class="kids">Item XII</div>
+      <div id="item-13" class="kids">Item XIII</div> -->
+    </div>
+
+    <h2>CSS Grid</h2>
+    <div class="grid-container">
+      <div id="cell-1" class="child">1</div>
+      <div id="cell-2" class="child">2</div>
+      <div id="cell-3" class="child">3</div>
+      <div id="cell-4" class="child">4</div>
+      <div id="cell-5" class="child">5</div>
+      <div id="cell-6" class="child">6</div>
+    </div>
+
+    <section>
+      <p>123456</p>
+      <p>123456</p>
+      <p>123456</p>
+    </section>
+
+    <div>
+      <p>
+        This is pargraph one <i>This is in italics</i> This is pargraph one
+        <i>This is in italics</i>
+      </p>
+      <p>This is second paragraph</p>
+      <p>This is second paragraph</p>
+    </div>
+
+    <div id="form-container">
+      <form action="" class="elite">
+        <span>Registration Form</span>
+        <hr />
+        <label class="type">
+          <input type="radio" name="type" />Personal<input
+            type="radio"
+            name="type"
+          />Company
+        </label>
+        <hr />
+        <label for="E-mail"
+          ><i class="fa-solid fa-envelope" style="color: #3957af"></i></label
+        ><input type="email" name="email" placeholder="E-mail" />
+        <br />
+        <label for="Name"
+          ><i class="fa-solid fa-user" style="color: #3957af"></i></label
+        ><input type="name" placeholder="Name" />
+        <br />
+        <label for="Password"
+          ><i
+            class="fa-solid fa-shield-halved"
+            style="color: #3957af"
+          ></i></label
+        ><input type="password" placeholder="Password" name="password" />
+        <br />
+        <label for="Gender"></label>
+        <input type="checkbox" name="Gender" />Male
+        <input type="checkbox" name="Gender" />Female
+      </form>
+    </div>
+    <br />
+    <div>
+      <div class="create">
+        <h1>Create Account</h1>
+      </div>
+      <form action="" class="session">
+        <span class="pov">
+          <div id="names">
+            <div id="fname">
+              <label for="fname">First name*</label
+              ><input
+                type="text"
+                name="fname"
+                placeholder="enter your first name"
+              />
+            </div>
+            <div id="lname">
+              <label for="lname">Last name</label
+              ><input
+                type="text"
+                name="lname"
+                placeholder="enter your last name"
+              />
+            </div>
+          </div>
+          <div id="mail">
+            <label for="mail">Email*</label
+            ><input type="email" name="mail" placeholder="enter your email" />
+          </div>
+          <div id="passwords">
+            <div id="pwd">
+              <label for="pwd">Password*</label
+              ><input
+                type="password"
+                name="pwd"
+                placeholder="enter your password"
+              />
+            </div>
+            <div id="verifypwd">
+              <label for="verifypwd">Confirm Password*</label
+              ><input
+                type="password"
+                name="verifypwd"
+                placeholder="enter your password again"
+              />
+            </div>
+          </div>
+          <div id="checkers">
+            <div class="select">
+              <label for="Gender">Gender*</label>
+              <div>
+                <input type="radio" name="Gender" id="" /><span class="gender"
+                  >Male</span
+                ><input type="radio" name="Gender" id="" /><span class="gender"
+                  >Female</span
+                >
+              </div>
+            </div>
+            <div class="select">
+              <label for="Hobbies">Hobbies</label>
+              <div>
+                <input type="checkbox" name="Hobbies" id="" /><span
+                  class="gender"
+                  >Music</span
+                >
+                <input type="checkbox" name="Hobbies" id="" /><span
+                  class="gender"
+                  >Sports</span
+                ><input type="checkbox" name="Hobbies" id="" /><span
+                  class="gender"
+                  >Travel</span
+                >
+                <input type="checkbox" name="Hobbies" id="" /><span
+                  class="gender"
+                  >Movies</span
+                >
+              </div>
+            </div>
+          </div>
+          <div id="bayern">
+            <div class="farm">
+              <label for="SOI">Source Of Income</label>
+              <div>
+                <input
+                  type="number"
+                  name="SOI"
+                  id=""
+                  placeholder="Employed"
+                />
+              </div>
+            </div>
+            <div class="farm" id="reke">
+              <label for="income">Income</label>
+              <div id="robot">
+                <input type="range" name="income" id="" /> 
+                <div id="small">20K</div>
+              </div>
+            </div>
+          </div>
+          <div id="calma">
+            <div class="calm">
+              <label for="pfp">Upload Profile Picture</label
+              ><input type="file" name="pfp"/>
+            </div>
+            <div class="calm">
+              <label for="">Age</label
+              ><input type="text" name="" placeholder="18"/>
+            </div>
+          </div>
+          <div id="rest">
+          <label for="Bio">Bio</label>
+          <textarea name="Bio" id="" cols="30" rows="5"></textarea>
+        </div>
+        </span>
+      </form>
+    </div>
+  </body>
+</html>

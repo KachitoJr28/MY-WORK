@@ -1,0 +1,94 @@
+h1 {
+  color: blue;
+  font-size: 12px;
+}
+
+p {
+  color: green;
+}
+
+.custom {
+  color: brown;
+}
+
+#custom2 {
+  color: blueviolet;
+}
+
+/*
+#first{
+    color:#BE398D 
+}
+
+#second {
+    color: #F07857;
+}
+
+#third{
+    color: #D49137;
+}
+
+*/
+body {
+  background-color: rgb(29, 42, 53);
+}
+#first {
+  color: rgb(120, 210, 190);
+}
+
+#second {
+  color: rgb(120, 10, 190);
+}
+
+#third {
+  color: rgb(20, 10, 90);
+}
+
+#allsides {
+  color: white;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+#redbottom {
+  border-bottom: 1px solid red;
+  padding: 15px;
+  color: white;
+}
+
+#round {
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+#blueleft {
+  background-color: #ddffff;
+  border-left: 5px solid #2196f3;
+  padding: 15px;
+  color: black;
+}
+
+.webdiv {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/249/111/618/claire-redfield-resident-evil-resident-evil-2-resident-evil-2-remake-video-game-art-hd-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 800px;
+  height: 500px;
+  color: rgb(51, 255, 0);
+  font-size: 30px;
+  text-decoration: underline wavy rgb(51, 255, 0) 2px;
+  overflow: scroll;
+  font-weight: 200;
+  font-family: sans-serif;
+  word-spacing: 20px;
+  letter-spacing: 5px;
+}
+
+ul {
+    list-style: upper-roman url(apple.png);
+    font-size: 30px;
+    color:beige;
+}

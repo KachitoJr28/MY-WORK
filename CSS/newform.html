@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newform.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="containergreen">
+        <form>
+            <div class="parentcontainer">
+
+
+                <div class="heading">
+                    <h1>Create Account</h1>
+                </div>
+
+                <div class="formactions">
+                    <div class="fullname">
+                        <div>
+                            <label for="First-name">First name*</label>
+                            <input type="text" placeholder="enter your first name">
+                        </div>
+                        <div>
+                            <label for="Last-name">Last name*</label>
+                            <input type="text" placeholder="enter your Last name">
+                        </div>
+                    </div>
+
+                    <div class="email">
+                        <label for="Email">Email*</label>
+                        <input type="email" placeholder="enter your email">
+                    </div>
+
+                    <div class="password">
+                        <div>
+                            <label for="Password*">Password*</label>
+                            <input type="password" placeholder="enter your password">
+                        </div>
+                        <div><label for="Confirm Password">Confirm Password*</label>
+                            <input type="password" placeholder="enter your password again">
+                        </div>
+                    </div>
+
+                    <div class="checklist">
+                        <div>
+                            <div><label for="Gender*">Gender*</label></div>
+                            <div class="radio">
+                                <input type="radio" name="gender" id="male"> Male
+                                <input type="radio" name="gender" id="Female"> female
+                            </div>
+                        </div>
+                        <div>
+                            <div><label for="hobbies">Hobbies</label></div>
+                            <div class="checkbox">
+                                <input type="checkbox" name="hobbies" id="Music">Music
+                                <input type="checkbox" name="Sports" id="Music">Sports
+                                <input type="checkbox" name="Travel" id="Music">Travel
+                                <input type="checkbox" name="Movies" id="Music">Movies
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="Income">
+                        <div>
+                            <label for="Source of Income">Source of Income</label>
+                            <input type="number" placeholder="Employed">
+                        </div>
+                        <div>
+                            <label for="Income">Income</label>
+                            <input type="range" name="income">
+                        </div>
+                        <div>
+                            <p>20K</p>
+                        </div>
+                    </div>
+
+                    <div class="pictureandage">
+                        <div>
+                            <label for="Upload Profile Picture">Upload Profile Picture</label>
+                            <input type="file">
+                        </div>
+                        <div>
+                            <label for="Age">Age</label>
+                            <input type="number" placeholder="18">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="Bio">Bio</label>
+                        <div><textarea rows="5" cols="65"></textarea></div>
+                    </div>
+                </div>
+
+                <div class="formfoot">
+                    <div>
+                        <button>Create</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+body{
+    font-size: 1.5rem;
+}
+
+header{
+  width: 100vw;
+  background-color: #01fe87;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #01fe87;
+    width: 80%;
+    margin-left:auto ;
+    margin-right: auto;
+}
+
+ul>a{
+    text-decoration: none;
+    color: #3d195b;
+    margin-right: 0.85em;
+}
+
+.button {
+    padding: 0.5rem;
+    background-color: #ff2a3d;
+    color: #3d195b;
+  }
+  
+  #signup {
+    border: 0px solid #ff2a3d;
+    border-radius: 40%;
+    padding: 0.5em;
+  }
+
+  .button:hover{
+    background-color: #3d195b;
+    color:#eaff00;
+  }
+
+  ul>a:hover{
+    color: #eaff00;
+  }
+
+  .button:active, #signup:active{
+    background-color: transparent;
+    border: 3px solid #3d195b;
+  }
+
+  ul>a:active{
+    text-decoration: overline double #eaff00;
+  }
+
+  .learn{
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+
+  .dream,.spool{
+    border: 2px solid black;
+    text-align: center;
+  }
+
+  .tool:nth-child(even){
+    background-color: #01fe87;
+  }
+
+  .dream{
+    background-color: #3d195b;
+    color: aliceblue;
+    padding: 0.5em;
+  }
+
+  .tool:hover:nth-child(even){
+    background-color: #ff2a3d;
+  }
+
+  .tool:hover:nth-child(odd){
+    background-color: gold;
+  }
+
+  .container{
+    width: 100%;
+    font-family: sans-serif;
+  }
+
+
+  .fields, .pale{
+    border-top: 1px solid gainsboro;
+    text-align: center;
+  }
+
+  .fields{
+    background-color: #8f8f8f;
+    color:white;
+    padding: 0.5em;
+    transition: transform 0.3s ease;
+  }
+
+  .pale{
+    padding: 0.3em;
+    transition: transform 1s ease;
+  }
+
+  .sane:nth-child(even){
+    background-color: #ffffff ;
+  }
+
+  .sane:nth-child(odd){
+    background-color: #f5f5f5;
+  }
+
+  #tab{
+    padding-bottom: 2em;
+  }
+
+  .fields:hover{
+    background-color: black;
+    color: darkgoldenrod;
+    transform: scale(1.2,1.2);
+  }
+
+  .pale:hover{
+    background-color: darkgoldenrod;
+    color: #ffffff;
+    transform: scale(1.15,1.15);
+    transform: rotateX(90deg);
+  }

@@ -1,0 +1,121 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropbtn{
+    background-color: blue;
+    color: chartreuse;
+    padding: 1rem;
+    font-size: 1em;
+    border: none;
+}
+
+.dropbtn:hover, .dropbtn:focus{
+    background-color: chartreuse;
+    color: white;
+}
+
+.dropdown{
+    /* position: relative; */
+    display: inline-block;
+}
+
+.mydropdown>a{
+    color: black;
+    background-color: #666666;
+    font-size: large;
+    padding: 0.5em;
+    text-decoration: none;
+    
+}
+
+.mydropdown{
+    display: none;
+    /* position: absolute; */
+    /* background-color: #333333; */
+    /* min-width: 7em; */
+    z-index: 1;
+}
+
+.mydropdown>a:hover{
+    background-color: #444444;
+}
+
+.poop{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn2{
+    padding: 1rem;
+    font-size: 1em;
+    border: none;
+    color: #0b1523;
+    background-color: #ffcde5;
+}
+
+.btn2:hover{
+    background-color: #0b1523;
+    color: #ffcde5;
+}
+
+#hoverdrop{
+    display: none;
+    background-image: linear-gradient(to bottom, green, lightblue);
+}
+
+#hoverdrop>a{
+    color: #ffcde5;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.5em;
+    right: 1;
+}
+
+#hoverdrop>a:hover{
+    background-color: burlywood;
+}
+
+.drop:hover>#hoverdrop{
+    display: flex;
+    flex-direction: column;
+}
+
+nav>.red{
+    padding: 1em;
+    background-color: #666666;
+    color: #ffffff;
+    flex-grow: 1;
+    text-align: center;
+    border-right: 1px solid #333333;
+    max-height: 1.1em;
+}
+
+.red:hover{
+    color:#666666;
+    background-color: #ffffff;
+}
+
+
+@keyframes Energy{
+     0%{transform: scale(0.1,0.1);}
+     100%{transform: scale(1, 1);}    
+}
+
+#lorem{
+    animation-name: Energy;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    margin-top: 1em;
+    background-color: aquamarine;
+    border: 5px solid rgb(76, 143, 121);
+    padding: auto;
+    width: 50ex;
+    height: 20ex;
+    overflow: hidden;
+    resize: both;
+    color: chocolate;
+    font-size: 1.3em;
+}

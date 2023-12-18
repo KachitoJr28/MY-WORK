@@ -1,0 +1,175 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+body {
+    background-color: black;
+    margin: 0px 320px;
+}
+
+
+.containergreen {
+    background-color: #578090;
+    padding: 20px;
+}
+
+.parentcontainer {
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #2daf91;
+}
+
+
+.formactions {
+    padding: 20px;
+}
+
+.heading {
+    background-color: #eef0f2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.heading h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #686866;
+    padding: 10px 0px;
+    border-bottom: 1px solid #cccccc;
+}
+
+
+.fullname {
+    display: flex;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+
+.fullname :first-child{
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+}
+
+.fullname :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.password {
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+.password :first-child{
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+}
+
+.password :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+}
+
+.checklist{
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+
+
+.checklist :first-child :first-child :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.checklist :nth-child(2) :first-child :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+.Income {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.Income :first-child {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+}
+
+.Income :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    
+}
+
+p {
+    background-color: #1bbb97;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.pictureandage {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.pictureandage :first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.pictureandage :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.formfoot {
+    background-color: #eef0f2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 15px 20px;
+
+    
+}
+
+.formfoot button {
+    background-color: #1bbb97;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 1%;
+    margin-left: 95%;
+}
+.radio {
+    color: black;
+}
+
+.checkbox {
+    color: black;
+}

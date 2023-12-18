@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-style: normal;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: larger;
+        color: aquamarine;
+    }
+    body:hover{
+        transform: scale(0.85,0.85);
+    }
+    body{
+        background-color: navy;
+        animation-name: animation;
+        animation-duration: 5s;
+    }
+    @keyframes animation {
+        0%{opacity: 0;}
+        100%{opacity: 100;}    
+        0%{transform: scale(0.5,0.5);}   
+        100%{transform: scale(1,1);}   
+    }
+</style>
+<body>
+    <script>
+        //Question 1
+        const base=10
+        const height=5
+        let area=(base*height)/2
+        document.write("the area of the triangle is :"+area)
+        //Question 2
+        var student={
+            firstname: "Mark",
+            lastname: "Okon",
+            student_class: "SS 2 Diamond",
+            subject: "robotics"    
+        }
+        document.write("<br>")
+        document.write(student["firstname"])
+        document.write("<br>")
+        document.write(student["lastname"])
+        document.write("<br>")
+        document.write(student["student_class"])
+        document.write("<br>")
+        document.write(student["subject"])
+        document.write("<br>")
+        document.write(student["firstname"]+" "+student["lastname"] + " is in "+student["student_class"]+" and offers "+student["subject"])
+    </script>
+</body>
+</html>
