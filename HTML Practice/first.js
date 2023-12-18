@@ -52,3 +52,40 @@ function isOdd(element) {
 }
 let Oddnumbers = numbers.filter(isOdd)
 console.log(Oddnumbers)
+
+let SumOfNumbers=numbers.reduce((p,c)=>{
+    return p+c
+},0)
+console.log(SumOfNumbers)
+
+let students=[
+    {
+        name:"Giannis Adetokumbo",
+        age:15,
+        field:"Business"
+    },
+    {
+        name:"Babalola Adenike",
+        age:14,
+        field:"Humanities"
+    },
+    {
+        name:"Jake Epelle",
+        age:17,
+        field:"Science"
+    }
+]
+
+const OldestAge=students.reduce((p,c)=>{
+    if (c.age>p) {
+        return c.age        
+    } else {
+        return p
+    }
+},0)
+console.log(OldestAge)
+
+function isHumanities(x) {
+    return x.field === "Humanities"    
+}
+console.log(students.find(isHumanities))
