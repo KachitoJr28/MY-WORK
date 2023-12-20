@@ -38,6 +38,13 @@ function Capitalize(element, index, array) {
 users.forEach(Capitalize)
 console.log(users)
 
+function addTitle(element,index,array) {
+    array[index] = "Mr. "+element
+    return array[index]
+}
+let titledUsers=users.map(addTitle)
+console.log(titledUsers)
+
 let numbers=[1,2,3,4,5]
 console.log(numbers)
 let subset=numbers.slice(1,4)
