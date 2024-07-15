@@ -1,0 +1,3 @@
+This is the first file I'm creating using Java 
+After all, why not? Why shouldn't I? Why Shouldn't I write this useless line?
+A file created by Omefome

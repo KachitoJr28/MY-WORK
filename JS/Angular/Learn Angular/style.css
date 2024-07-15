@@ -1,0 +1,33 @@
+*{
+    /* background-color: blueviolet; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    width: 800px;
+    height: 80px;
+    text-align: center;
+    background-color: #bdbdbd;
+}
+
+.footer{
+    background-color: #bdbdbd;
+    text-align: center;
+}
+
+.leftMenu{
+    height: 500px;
+    background-color: #bdbdbd;
+    width: 150px;
+}
+
+.mainContent{
+    height: 500px;
+    background-color: #bdbdbd;
+    width: 650px;
+}
+
+a{
+    display: block;
+    padding: 5px;
+}

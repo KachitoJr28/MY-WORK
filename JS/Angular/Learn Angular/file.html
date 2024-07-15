@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="..\angular.min.js"></script>
+    <script src="..\angular-route.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr class="header">
+            <td colspan="2">
+                <h1>Website Header</h1>
+            </td>
+        </tr>
+        <tr>
+            <td class="leftMenu"><center><b>LINKS</b></center>
+                <br><a href="#/home"> Home </a>
+                <a href="#coures"> Courses </a>
+                <a href="#/students"> Students </a>
+            </td>
+            <td class="mainContent">
+                <ng-view></ng-view>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="footer">
+                <b>Website Footer</b>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
