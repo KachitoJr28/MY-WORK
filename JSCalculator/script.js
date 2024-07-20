@@ -91,21 +91,27 @@ function del() {
 function tanInverse() {
     var screen=document.getElementById("screen")
     let temp=screen.value
-    temp=Math.pow(temp,2)
+    // temp=(temp*Math.PI)/180
+    temp=(temp*3.1415926536)/180
+    temp=Math.atan(temp)
     screen.value=temp
 }
 
 function cosInverse() {
     var screen=document.getElementById("screen")
     let temp=screen.value
-    temp=Math.pow(temp,2)
+    // temp=(temp*Math.PI)/180
+    temp=(temp*3.1415926536)/180
+    temp=Math.acos(temp)
     screen.value=temp
 }
 
 function sinInverse() {
     var screen=document.getElementById("screen")
     let temp=screen.value
-    temp=Math.pow(temp,2)
+    // temp=(temp*Math.PI)/180
+    temp=(temp*3.1415926536)/180
+    temp=Math.asin(temp)
     screen.value=temp
 }
 
