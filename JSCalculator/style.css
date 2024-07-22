@@ -89,11 +89,11 @@
         
         #screen{
             width: 272px;
-            font-size: 40px;
+            font-size: 30px;
             border: 1px solid black;
             padding: auto;
             margin: auto;
-            background-color: purple;
+            background-color: #f0f0f0;
         }
 
     }
