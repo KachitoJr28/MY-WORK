@@ -1,0 +1,64 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkkhaki;
+}
+
+html,body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkkhaki;
+    background-color: azure;
+    width: 90%;
+    margin: auto;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    font-size: 30px;
+}
+
+div{
+    display: flex;
+}
+
+div>button{
+    max-width: 101px;
+    font-size: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(160, 170, 170);
+    color: rgb(94.5, 91.5, 53.5);
+}
+
+div>button:hover{
+    background-color: rgb(40, 21.25, 21.25);
+    color: rgb(189, 183, 107);
+}
+
+div>input{
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(80, 85, 85);
+    width: 350px;
+    height: 100px;
+    font-size: 70px;
+    font-family: 'Times New Roman', serif;
+    color: darkkhaki;
+}
+
+div>input::placeholder{
+    font-size: 55px;
+}
+
+.status{
+    font-size: 20px;
+}
+
+.status::before,.status::after{
+    content: "*";
+}
